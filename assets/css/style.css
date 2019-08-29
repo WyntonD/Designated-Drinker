@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image: url("/assets/images/file.jpg");
+    color: white;
+    background-position: center;
+    background-size: 100%;
+    font-weight: bold;
+ }
