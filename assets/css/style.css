@@ -6,12 +6,13 @@
     font-weight: bold;
 
  }
-
+ 
  h1 {
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  text-align: center;
-  text-rendering: optimizeLegibility;
- }
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+   text-align: left;
+   text-rendering: optimizeLegibility;
+  }
+
  .retroshadow {
     color: black;
     letter-spacing: .05em;
@@ -23,3 +24,25 @@
       font-size: 80px
  }
 
+ .container {
+    background-position: center;
+    border:10px;
+
+ }
+ .search-table {
+    background-position: center;
+
+ }
+ .form-control {
+    padding: 20px;
+    
+ }
+
+.row {
+   padding: 20px;
+
+}
+.button {
+   content: 20px;
+
+}
