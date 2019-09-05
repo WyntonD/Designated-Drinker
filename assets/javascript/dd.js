@@ -1,3 +1,6 @@
+
+var apiKey= "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg";
+
 var Config = {
     apiKey: "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg",
     authDomain: "designateddrinker-e35a3.firebaseapp.com",
@@ -38,6 +41,24 @@ req.end(function (res) {
 
 
 
+
+database.ref().push(drinkName);
+
+var newRow = $("<tr>").append(
+    $("<td>").text(drinkName),
+    $("<td>").text(Ingredients),
+    );
+
+
+
+req.end(function (res) {
+	if (res.error) throw new Error(res.error);
+
+	console.log(res.body);
+});
+
+
+
  $("#btnBeer").on("click", function(){
     console.log("Beer button clicked");
 
@@ -53,4 +74,3 @@ req.end(function (res) {
 
 
  });
-
