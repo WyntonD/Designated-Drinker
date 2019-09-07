@@ -10,8 +10,10 @@ var Config = {
   // Initialize Firebase
   firebase.initializeApp(Config);
   // Reference database service
-  var database = firebase.database();
- 
+  var database = firebase.database()
+  var cocktailApi = "c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa";
+  var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
+
 $.ajax({
   url: queryURL,
   method: "GET"
@@ -23,7 +25,7 @@ database.ref().push(drinkName);
 
 var newRow = $("<tr>").append(
     $("<td>").text(drinkName),
-    $("<td>").text(Ingredients),
+    $("<td>").text(ingredients),
     );
 
 
@@ -60,3 +62,4 @@ $("#search-table > tbody").append (newRow);
 
 
 
+   
