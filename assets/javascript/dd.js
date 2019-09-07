@@ -14,7 +14,6 @@ var Config = {
   // Reference database service
   var database = firebase.database();
 
- 
 var cocktailApi = "c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa";
  
 $.ajax({
@@ -68,3 +67,4 @@ $("#search-table > tbody").append (newRow);
 
 
 
+   
