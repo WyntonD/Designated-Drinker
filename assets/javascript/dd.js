@@ -13,6 +13,9 @@ var Config = {
   var database = firebase.database()
   var cocktailApi = "c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa";
   var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
+  var drinkName = "";
+  var ingredients = "";
+  var drinkRecipe = "";
 
 $.ajax({
   url: queryURL,
@@ -27,14 +30,6 @@ var newRow = $("<tr>").append(
     $("<td>").text(drinkName),
     $("<td>").text(ingredients),
     );
-
-
-
-req.end(function (res) {
-	if (res.error) throw new Error(res.error);
-
-	console.log(res.body);
-});
 
 
 // grab user input/ user types in a submit button with the name of a cocktail-Wynton
@@ -53,7 +48,7 @@ $("#input").val("");
 //create the firebase event for adding the recipe to the database-Brian
 
 //store everything into a variable-Sue
-var drinkrecipe = childSnapshot.val().name
+//firebase function childsnapshot drinkRecipe = database.child.snapShot.val().name
 
 //create a new row to add recipe-Willaim
 
