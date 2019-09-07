@@ -22,47 +22,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css"></script>
     <title>HH</title>
 
 </head>
 
-<body>
-    <div class="container">
+<body class="pretty-background">
         <div class="jumbotron">
+                
+                <p class="lead">Find Ingredients to your favoite cocktails</p>
+                <hr class="my-4">
+                <p class="lead">
+                    <input type="text" class="form-control" id="drinkName" placeholder="Search Cocktail here">
+                    <br>
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Search</a>
+                </p>
+              </div>
 
-            <h1 class="retroshadow">Happy Hour</h1>
-        </div>
-        <div class="search-table">
-            <input type="text" class="form-control" id="drinkName" placeholder="Search Cocktail here">
-            <button type="submit" class="button" id="btnSubmit">Submit </button>
-        </div>
-    
-     <div class="search-table">
-            <input type="text" class="form-control" id="input" placeholder="Search Cocktail here">
-            <br>
-            <button type="submit" class="button" id="btnsubmit">Submit </button> 
-       </div> 
-
-
-       <div class="row">
-            <div class="col-md-12">
-                <div class="card mb-4">
-                    <div class="card-header" id='cocktailIngredients'>Cocktail Ingredients</div>
-                    <div class="card-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6" id='tblOptionOne'>
-                                    Option 1
-                                </div>
-                                <div class="col-md-6" id='tblOptionTwo'>
-                                    Option 2
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+              <table class="table table-hover">
+                <h1>Happy Hour</h1>
+                <thead>
+                      <tr>
+                        <th scope="col">Option 1</th>
+                        <th scope="col">Option 2</th>
+                        
+                      </tr>
+  
                 <script src="assets/javascript/dd.js"></script>
 </body>
 
