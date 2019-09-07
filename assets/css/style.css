@@ -6,27 +6,7 @@
     background-size: 100%;
     font-weight: bold;
     background-size: 50%;
-    background-image: url("../images/file.jpg")
-    
-    
-
- }
- 
- h1 {
-   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-   text-align: left;
-   text-rendering: optimizeLegibility;
-  }
-
- .retroshadow {
-    color: whitesmoke;
-    letter-spacing: .05em;
-    font: bolder;
-    font-style: italic;
-    text-shadow:
-      1px 1px 0px #2c2c2c,
-      2px 2px 0px rgba(0, 0, 0, 0.2);
-      font-size: 80px
+    background-image: url("../images/file.jpg");
  }
 
  .container {
@@ -34,23 +14,12 @@
     border:10px;
 
  }
- .search-table {
-    background-position: center;
 
- }
  .form-control {
     padding: 20px;
     
  }
 
-.row {
-   padding: 20px;
-
-}
-.button {
-   content: 20px;
-
-}
 .pretty-background {
    background:
      linear-gradient(red, transparent),
@@ -58,4 +27,15 @@
      linear-gradient(to top right, blue, transparent);
    background-blend-mode: screen;
    height: 100vh;
- }
+
+}
+
+.happy {
+   color: white;
+
+}
+
+.options{
+   color: black;
+   
+}
