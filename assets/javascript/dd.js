@@ -10,8 +10,10 @@ var Config = {
   // Initialize Firebase
   firebase.initializeApp(Config);
   // Reference database service
-  var database = firebase.database();
- 
+  var database = firebase.database()
+  var cocktailApi = "c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa";
+  var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita/1/";
+
 $.ajax({
   url: queryURL,
   method: "GET"
