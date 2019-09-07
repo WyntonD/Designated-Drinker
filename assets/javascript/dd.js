@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-var apiKey= "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg";
-
-=======
->>>>>>> 3b6605c74bfa24bd1b48ddb5a322f44fc31d902a
 var Config = {
     apiKey: "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg",
     authDomain: "designateddrinker-e35a3.firebaseapp.com",
@@ -16,14 +11,8 @@ var Config = {
   firebase.initializeApp(Config);
   // Reference database service
   var database = firebase.database();
-<<<<<<< HEAD
-
-var cocktailApi = "c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa";
-=======
  
-  var openBrewApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
   var cocktailApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
->>>>>>> 3b6605c74bfa24bd1b48ddb5a322f44fc31d902a
  
 $.ajax({
   url: queryURL,
@@ -47,29 +36,7 @@ req.end(function (res) {
 	console.log(res.body);
 });
 
-<<<<<<< HEAD
 //Brian keys
-=======
-
-
- $("#btnBeer").on("click", function(){
-    console.log("Beer button clicked");
-
- });
-
- $("#btnWine").on("click", function(){
-    console.log("Wine button clicked");
-
- });
-
- $("#btnCocktail").on("click", function(){
-    console.log("Cocktail button clicked");
-
-
- });
-
->>>>>>> 3b6605c74bfa24bd1b48ddb5a322f44fc31d902a
-
 
 // grab user input/ user types in a submit button with the name of a cocktail-Wynton
 $("#btnSubmit").on("click", function(){
