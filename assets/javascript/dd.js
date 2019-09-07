@@ -12,9 +12,6 @@ var Config = {
   // Reference database service
   var database = firebase.database();
  
-  var openBrewApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
-  var cocktailApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
- 
 $.ajax({
   url: queryURL,
   method: "GET"
@@ -38,27 +35,10 @@ req.end(function (res) {
 });
 
 
-
- $("#btnBeer").on("click", function(){
-    console.log("Beer button clicked");
-
- });
-
- $("#btnWine").on("click", function(){
-    console.log("Wine button clicked");
-
- });
-
- $("#btnCocktail").on("click", function(){
-    console.log("Cocktail button clicked");
-
-
- });
-
-
-
 // grab user input/ user types in a submit button with the name of a cocktail-Wynton
-
+$("#btnSubmit").on("click", function(){
+    console.log("Submit button clicked");
+    });
 //create local "temporary" object for holding drink information-Sue
 var drinkName = {
     recipe: drinkRecipe,
@@ -66,8 +46,8 @@ var drinkName = {
 
 //upload the drink data to the database-Willaim
 
-//clear the submit button-Wynton
-
+//clear the search bar-Wynton
+$("#input").val("");
 //create the firebase event for adding the recipe to the database-Brian
 
 //store everything into a variable-Sue
