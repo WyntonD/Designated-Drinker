@@ -12,8 +12,6 @@ var Config = {
   // Reference database service
   var database = firebase.database();
  
-  var cocktailApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
- 
 $.ajax({
   url: queryURL,
   method: "GET"
@@ -36,7 +34,6 @@ req.end(function (res) {
 	console.log(res.body);
 });
 
-//Brian keys
 
 // grab user input/ user types in a submit button with the name of a cocktail-Wynton
 $("#btnSubmit").on("click", function(){
