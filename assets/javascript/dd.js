@@ -62,3 +62,4 @@ $("#search-table > tbody").append (newRow);
 
 
 
+   
