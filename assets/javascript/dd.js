@@ -1,9 +1,3 @@
-
-
-
-
-var apiKey= "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg";
-
 var Config = {
     apiKey: "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg",
     authDomain: "designateddrinker-e35a3.firebaseapp.com",
@@ -18,15 +12,14 @@ var Config = {
   // Reference database service
   var database = firebase.database();
  
-var openBrewApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
- 
-var cocktailApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
+  var openBrewApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
+  var cocktailApi = c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa;
  
 $.ajax({
   url: queryURL,
   method: "GET"
 }).then(function(response){
-
+    console.log(response);
 });
 
 database.ref().push(drinkName);
@@ -62,9 +55,7 @@ req.end(function (res) {
 
  });
 
-//Brian keys
 
-var apiKey= "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg";
 
 // grab user input/ user types in a submit button with the name of a cocktail-Wynton
 
