@@ -8,4 +8,4 @@ Breakdown: HTML –Sue and Rebekah
         JS – Wynton and Brian, 
         CSS - Will, Rebekah Sue
 
-Designated Drinker
+Happy Hour 
