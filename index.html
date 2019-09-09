@@ -25,11 +25,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>HH</title>
 </head>
+
 <body class="pretty-background">
     <div class="jumbotron">
         <p class="lead">Find Ingredients to your favoite cocktails</p>
         <hr class="my-4">
-        <p class="lead">
+        <p>
             <form id="drinkForm">
                 <input type="text" class="form-control" id="drinkName" placeholder="Search Cocktail here" required>
                 <p></p>
@@ -45,19 +46,26 @@
                 <th scope="col">Drink Recipe</th>
             </tr>
         </thead>
-        <tr> <td id="strDrink"></td>
+        <tr>
+            <td id="strDrink"></td>
         </tr>
-        <tr><td id="strInstructions"></td>
+        <tr>
+            <td id="strInstructions"></td>
         </tr>
         <tr>
             <td>Ingredients:</td>
             <td>Measures:</td>
         </tr>
     </table>
-    <div class="favorites" id="tblFavorites">
+    <div class=favorites id="divFavorites" style="display:none">
         <p></p>
         <h3>Favorite Drinks</h3>
+        <div id="divButton">
+            <button type="submit" id="btnFavorites" class="btn btn-primary">Add to Favorites</button>
+        </div>
+        <table id="tblFavorites"></table>
     </div>
     <script src="assets/javascript/dd.js"></script>
 </body>
+
 </html>
