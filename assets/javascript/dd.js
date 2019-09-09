@@ -1,4 +1,4 @@
-var Config = {
+var config = {
     apiKey: "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg",
     authDomain: "designateddrinker-e35a3.firebaseapp.com",
     databaseURL: "https://designateddrinker-e35a3.firebaseio.com",
@@ -8,14 +8,13 @@ var Config = {
     appId: "1:545274280980:web:93778394c39fcbf1"
   };
   // Initialize Firebase
-  firebase.initializeApp(Config);
+  firebase.initializeApp(config);
   // Reference database service
   var database = firebase.database()
   var cocktailApi = "c26133f883msh91f4998356d4396p19e1a0jsn3e67fad764aa";
   var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
-  var drinkName = "";
-  var ingredients = "";
-  var drinkRecipe = "";
+//   var ingredients = "";
+//   var drinkRecipe = "";
 
 $.ajax({
   url: queryURL,
