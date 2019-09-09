@@ -22,6 +22,7 @@ $.ajax({
   method: "GET"
 }).then(function(response){
     console.log(response);
+    console.log(queryURL);
 });
 
 database.ref().push(drinkName);
