@@ -1,3 +1,6 @@
+* {
+    color: white;
+}
 
 .jumbotron {
     
@@ -8,10 +11,18 @@
    background-size: 50%;
    background-image: url("../images/file.jpg");
 }
+.pretty-background {
+    background:
+      linear-gradient(gray, transparent),
+      linear-gradient(to top right, black, transparent);
+    background-blend-mode: screen;
+    height: 100vh;
+  
+  }
 
-.lead {
+/* .lead {
   color: rgb(76, 243, 76);
-}
+} */
 .container {
    background-position: center;
    border:10px;
@@ -23,15 +34,6 @@
    
 }
 
-.pretty-background {
-  background:
-    linear-gradient(red, transparent),
-    linear-gradient(to top left, lime, transparent),
-    linear-gradient(to top right, blue, transparent);
-  background-blend-mode: screen;
-  height: 100vh;
-
-}
 
 .happy {
   color: white;
@@ -83,4 +85,5 @@
   textarea {
       width: 80%;
   }
+  
 }
