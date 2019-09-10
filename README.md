@@ -1,11 +1,10 @@
 # Project-One-Proposal
-Project Designated Drinker
+Project Happy Hour
 Team Members: Sue, Brian, Wynton, Rebekah, William
 Description: Create a site that allows you to find your choice of drink closest to you
-API: openbreweryDB, cocktailDB, globalwinescore, directwines,
-Library:  React
+API: cocktailDB, firebase
+Library:  Bootswatch
 Breakdown: HTML –Sue and Rebekah
-        JS – Wynton and Brian, 
+        JS – Wynton and Brian, Sue
         CSS - Will, Rebekah Sue
 
-Designated Drinker
