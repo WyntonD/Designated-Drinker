@@ -1,6 +1,6 @@
 Project Title: Happy Hour
 
-Description: Create a site that allows you to view ingredients of a desired cocktail of your choice.
+Description: A site that allows you to view ingredients of a desired cocktail of your choice.
 
 API: The Cocktail DB
 Library: Bootswatch
