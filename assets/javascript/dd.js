@@ -1,4 +1,4 @@
-var Config = {
+var config = {
     apiKey: "AIzaSyC3FQD-MCWfgEGbZZ_FCL1RpnJKgRRiGlg",
     authDomain: "designateddrinker-e35a3.firebaseapp.com",
     databaseURL: "https://designateddrinker-e35a3.firebaseio.com",
